@@ -38,8 +38,8 @@ tasks {
     }
 
     signPlugin {
-        certificateChainFile.set(file("D:/temp/chain.crt"))
-        privateKeyFile.set(file("D:/temp/private.pem"))
+        certificateChainFile.set(file("./chain.crt"))
+        privateKeyFile.set(file("./private.pem"))
         password.set("delicacy@123")
     }
 
